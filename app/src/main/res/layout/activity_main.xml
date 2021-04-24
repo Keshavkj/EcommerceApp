@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register in to get Started
+            Experience the all new App!"
+        android:textSize="30dp"
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/abc"
+
+
+        />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abc"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:textSize="30dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:textSize="30dp"
+        android:hint="E-mail ID" />
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailid"
+
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:textSize="30dp"
+        android:hint="Mobile Number" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobile"
+
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+        android:textSize="30dp"
+        android:hint="Password" />
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+        android:textSize="30dp"
+        android:hint="Confirm Password" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmpassword"
+        android:layout_marginTop="40dp"
+        android:text="REGISTER"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:text="Already have an account?"
+
+        android:textSize="20dp"
+        android:id="@+id/r"
+        android:layout_marginLeft="60dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log"
+        android:layout_below="@+id/r"
+        android:text="Login"
+        android:layout_marginLeft="300dp"
+        />
+<Button
+    android:id="@+id/btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/log"
+    android:text="new  product"
+
+
+    />
+
+
+
+
+
+</RelativeLayout>

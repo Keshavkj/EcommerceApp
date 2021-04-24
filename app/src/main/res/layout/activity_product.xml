@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/chasma"
+        android:id="@+id/chasma"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chasma"
+        android:text="Eyevy"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/eyevy"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eyevy"
+        android:text="Rim Round, Cat-eyed Anti Glare Frame (48mm) "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/eye"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/eye"
+        android:id="@+id/rs"
+        android:text="Rs 219"
+        android:textSize="40dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/rs">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="ADD TO CART"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BUY NOW"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

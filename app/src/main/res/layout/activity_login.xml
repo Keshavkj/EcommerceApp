@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in to get Started
+            Experience the all new App!"
+        android:textSize="30dp"
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/abcd"
+
+
+        />
+
+    <EditText
+        android:id="@+id/emailid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abcd"
+
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:textSize="30dp"
+        android:hint="E-mail ID" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailid1"
+
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+        android:textSize="30dp"
+        android:hint="Password" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usemobile"
+        android:text="use Mobile Number"
+        android:textColor="#FFEB3B"
+        android:layout_marginLeft="120dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/password2"
+        />
+
+    <Button
+        android:id="@+id/login9"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password2"
+        android:layout_marginTop="400dp"
+        android:text="Login"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#fff" />
+
+
+
+
+
+</RelativeLayout>
